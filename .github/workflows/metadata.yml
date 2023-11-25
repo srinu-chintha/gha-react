@@ -1,0 +1,7 @@
+name: Data
+on: push
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Data
+      run: "{{ toJSON(github) }}"
